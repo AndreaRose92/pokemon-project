@@ -1,8 +1,14 @@
+import { Link } from "react-router-dom";
 
-export default function LandingPage() {
+export default function LandingPage({handleClick}) {
+    
+    
+    
     return (
-        <div className="titlePage">
-            Your journey in the world of Pokemon is about to begin!<i></i>
-        </div>
+        <Link to='/team'>
+            <div onClick={handleClick} className="titlePage">
+                Your journey in the world of Pokemon is about to begin!<i></i>
+            </div>
+        </Link>
     )
 }
