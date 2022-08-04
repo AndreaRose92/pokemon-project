@@ -1,4 +1,6 @@
 
+import '../style/PokemonCard.css'
+
 export default function PokemonCard({name, sprites, types}) {
 
     return (

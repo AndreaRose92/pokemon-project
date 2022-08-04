@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import '../style/LandingPage.css'
 
 export default function LandingPage({handleClick}) {
     

@@ -1,4 +1,5 @@
 
+import '../style/TallGrass.css'
 import PokemonCard from "./PokemonCard"
 
 export default function TallGrass({wildPokemon}) {
