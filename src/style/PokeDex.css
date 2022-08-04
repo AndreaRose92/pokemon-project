@@ -1,0 +1,20 @@
+#name,
+#moveset {
+    border: #000000 2px;
+    background-color: whitesmoke;
+    margin: 5px;
+}
+
+.move {
+    margin: 5px;
+    background-color: whitesmoke;
+    border: #000000 2px;
+
+}
+
+.pokeDex {
+    background-color: wheat;
+    width: fit-content;
+    border: 2px solid grey;
+    padding: 2px;
+}/*  */

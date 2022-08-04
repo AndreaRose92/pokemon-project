@@ -1,7 +1,7 @@
 
 import '../style/PokemonCard.css'
 
-export default function PokemonCard({name, sprites, types}) {
+export default function PokemonCard({ name, sprites, types }) {
 
     return (
         <div className={`card ${types[0].type.name}`}>

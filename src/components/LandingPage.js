@@ -6,7 +6,7 @@ export default function LandingPage({handleClick}) {
     
     
     return (
-        <Link to='/team'>
+        <Link to='/grass'>
             <div onClick={handleClick} className="titlePage">
                 Your journey in the world of Pokemon is about to begin!<i></i>
             </div>
