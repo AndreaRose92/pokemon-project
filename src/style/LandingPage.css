@@ -1,0 +1,37 @@
+.titlePage {
+    font-size: 32px;
+    font-family: "Pokemon GB", Arial, sans-serif;
+    border-radius: 2px;
+    padding: 8px;
+    width: 40vw;
+    height: 12vh;
+    /* line-height: 16px; */
+    margin: auto;
+    margin-top: 20%;
+    background: white;
+    border: 1px solid white;
+    box-shadow: 0 1px 0 1px black,
+        inset 0 1px 0 1px black,
+        0 0 0 1px black,
+        inset 0 0 0 1px black;
+}
+
+.titlePage>i {
+    width: 0;
+    height: 0;
+    border: 5px solid transparent;
+    border-top-color: black;
+    margin-top: 10px;
+    animation: bounce 0.5s ease-in-out 0 infinite alternate;
+    float: right;
+}
+
+@keyframes bounce {
+    from {
+        margin-top: 20px;
+    }
+
+    to {
+        margin-top: 10px;
+    }
+}
